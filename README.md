@@ -10,10 +10,9 @@ Welcome to the official repository for **RAGATHON 2026**. This 5-day challenge i
 
 Before writing your first line of code, you **must** read the following documents located in the `docs/official/` folder:
 
-1. **[Official Problem Statements](./docs/official/GDG Ragathon 2026.pdf)**: Deep dive into the tasks, scoring metrics, and datasets.
-    
-2. **[Contribution Guidelines](./docs/official/CONTRIBUTION GUIDELINES.md)**: Rules for Git etiquette, folder structure, and submission standards.
-    
+1. [**Official Problem Statements**](./docs/official/GDG_Ragathon_2026.pdf): Deep dive into the tasks, scoring metrics, and datasets.
+
+2. [**Contribution Guidelines**](./docs/official/CONTRIBUTION_GUIDELINES.pdf): Rules for Git etiquette, folder structure, and submission standards.
 
 ---
 
