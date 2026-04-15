@@ -1,8 +1,6 @@
 streamlit
 langchain-core
 langchain-google-genai
-langchain-chroma==0.1.4
-chromadb==0.5.23
-protobuf==4.25.3
-grpcio==1.62.2
-opentelemetry-exporter-otlp-proto-grpc==1.24.0
+langchain-chroma
+chromadb==0.4.24
+protobuf==3.20.3
