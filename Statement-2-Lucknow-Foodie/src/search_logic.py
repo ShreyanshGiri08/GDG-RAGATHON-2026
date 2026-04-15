@@ -15,7 +15,7 @@ def get_recommendations(query, budget_filter=None, proximity_weight=True):
     json_path = os.path.join(current_dir, "..", "dataset", "lucknow_eats.json")
     
     # 2. Initialize Embeddings
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-004")
+    embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004")
     
     # 3. Load and Parse JSON
     if not os.path.exists(json_path):
