@@ -3,6 +3,7 @@ import json
 from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.documents import Document
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 def get_recommendations(query, budget_filter=None, proximity_weight=True):
     """
@@ -15,8 +16,7 @@ def get_recommendations(query, budget_filter=None, proximity_weight=True):
     json_path = os.path.join(current_dir, "..", "dataset", "lucknow_eats.json")
     
     # 2. Initialize Embeddings
-    embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004")
-    
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     # 3. Load and Parse JSON
     if not os.path.exists(json_path):
         print(f"Error: Could not find JSON at {json_path}")
