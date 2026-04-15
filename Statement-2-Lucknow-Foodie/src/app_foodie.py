@@ -1,4 +1,6 @@
 import streamlit as st
+import sys, os
+sys.path.insert(0, os.path.dirname(__file__))
 from search_logic import get_recommendations
 from langchain_google_genai import ChatGoogleGenerativeAI
 
