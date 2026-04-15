@@ -1,5 +1,5 @@
 import os
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 def get_recommendations(query, budget_filter=None, proximity_weight=True):
